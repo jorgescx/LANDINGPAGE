@@ -1,0 +1,393 @@
+:root{
+    --colorBase: #FFFFFF;
+    --Border: 15px;
+    --Button: #D9D9D9;
+    --TextSelect: #000000;
+    --TextUnselect:#656565;
+    --Card: #D9D9D9;
+    --purple: #63325A;
+    --HeightCard: 266px;
+    --WidthCard: 243px;
+    --ImageCardWidth: 300px;
+    --LogosWidth: 24px;
+    --LogosHeight: 24px;
+    --Fuente: 'Geologica', sans-serif;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+    font-family:  var(--Fuente);
+    height: 100vh;
+    width: 100vw;
+}
+#BarraNavegacion {
+    margin-top: -25px;
+    padding-top: 20px;
+    min-width: fit-content;
+
+}
+
+#contenido {
+    border-left: 1px solid #D9D9D9; /* Borde derecho para separación */
+    padding-left: 20px; /* Espacio adicional a la izquierda del área de tarjetas */
+}
+
+/*GRID BODY*/
+/*items: BarraNavegacion, main, h1, form(BarraBusqueda)*/
+body{
+    margin: 0;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    min-height: 600px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "Title Title Title Title Title Title Title Title Title Title"
+    "BarraNavegacion BarraNavegacion tituloSeccion tituloSeccion tituloSeccion tituloSeccion tituloSeccion tituloSeccion tituloSeccion tituloSeccion"
+    "BarraNavegacion BarraNavegacion main main main main main main main main"
+    "BarraNavegacion BarraNavegacion main main main main main main main main"
+    "BarraNavegacion BarraNavegacion main main main main main main main main"
+    "BarraNavegacion BarraNavegacion main main main main main main main main"
+    "BarraNavegacion BarraNavegacion main main main main main main main main"
+    "BarraNavegacion BarraNavegacion main main main main main main main main"
+    "BarraNavegacion BarraNavegacion main main main main main main main main";
+    overflow:hidden ;
+}
+
+
+
+/*ESTILO DE TARJETAS*/
+
+a.card{
+    display: inline-block;
+    color: #000000;
+    background-color:var(--Card);
+    border-radius: var(--Border);
+    text-decoration: none;
+    width: auto;
+    min-width: 276px;
+    height: 218px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.card_content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cardTittle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 5%;
+}
+
+
+.descripcion{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+a.card:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+}
+
+/*ESTILO DE NAV BAR*/
+a.secciones{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+
+.icon{
+    width: 25px;
+    height: auto;
+    margin-right: 9px;
+}
+
+a.secciones:hover{
+    color: var(--TextSelect);
+    background-color: #D9D9D9;
+    transition: 0.2s;
+}
+
+
+
+/*TITLE INDEX*/
+h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-area: Title;
+    margin:0;
+    padding-left: 1rem;
+    background-color:#082D73;
+    width: 100%;
+    height: 100px;
+    background-image: url("resources/barra_morada.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 10px;
+    background-position: bottom, left;
+    color: #FFFFFF;
+
+}
+
+#titleContainer{
+    grid-area: tituloSeccion;
+    height: auto ;
+    width: 30%;
+    border-left: 1px solid #D9D9D9; /* Borde derecho para separación */
+    padding-left: 20px; /* Espacio adicional a la izquierda del área de tarjetas */
+}
+
+main{
+    grid-area: main;
+    overflow: auto;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+
+}
+
+nav{
+    grid-area: BarraNavegacion;
+}
+
+.menu-toggle {
+    grid-area: toggle;
+    display: none;
+    margin-top: 0;
+
+}
+/*MAIN IMAGES*/
+
+
+.ContentPictures{
+    background-image: url("resources/Foto1.png");
+    background-size: 70%;
+}
+
+
+
+/*BACKGROUND IMAGES*/
+#PortalUAQ {
+    background-image:
+            url("resources/logoportaluaq.png.png"), /* Primera imagen de fondo */
+            url("resources/recuadrorojo.png"); /* Segunda imagen de fondo */
+
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+#PortalFIF {
+    background-image:
+            url("resources/logoportalinfo.png"),
+            url("resources/recuadroazuloscuro.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+#VirtualUAQ{
+    background-image:
+            url("resources/logovirtualuaq.png"),
+            url("resources/recuadroazul.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+#PortalInf{
+    background-image:
+            url("resources/logoportalinfo.png"),
+            url("resources/recuadrocyan.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+#PortalFIF{
+    background-image:
+            url("resources/logovirtualfif.png"),
+            url("resources/recuadromorado.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+#VirtualFIF{
+    background-image:
+            url("resources/logovirtualfif.png"),
+            url("resources/recuadromorado.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+
+#Correo{
+    background-image:
+            url("resources/logovirtualfif.png"),
+            url("resources/recuadromorado.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+#BarraNavegacion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title{
+    margin-left: 1.5%;
+    height: auto;
+}
+
+.logos{
+    margin-right: 15px;
+    width: 3rem;
+    height: auto;
+    grid-area: Title;
+}
+
+
+
+@media (max-width: 950px) {
+
+    html{
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    body{
+        height: 100vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 10% 10% 80%;
+        grid-template-areas:
+        "Title Title Title toggle"
+        "tituloSeccion tituloSeccion tituloSeccion tituloSeccion"
+        "main main main main";
+    }
+
+    .menu-toggle {
+        height: auto;
+        width: 4rem;
+        min-height: 76px;
+        grid-area: toggle;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#082D73;
+        background-image: url("resources/barra_morada.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 10px;
+        background-position: bottom, left;
+        padding: 7px;
+    }
+
+
+    h1{
+        width: 100%;
+        height: auto;
+        min-height: 90px;
+        margin-bottom: 0;
+        min-width: 200px;
+        font-size: 25px;
+    }
+
+
+    a.card{
+        width: 90%;
+        margin: 15px 15px 15px 0;
+        height: 50%;
+    }
+
+    #BarraNavegacion{
+        display: none;
+        position: fixed;
+        min-width: 150px;
+    }
+
+    #BarraNavegacion.active{
+        display: block;
+        position: absolute;
+        width: 90%;
+        top: 50px;
+        right: 10px;
+        background-color: #274a8e;
+        border: 1px solid #ddd;
+        padding: 10px;
+        z-index: 1000;
+        margin-top: 60px;
+        border-radius: 15px;
+    }
+
+    a.secciones{
+        width: 95%;
+        color: #D9D9D9;
+    }
+
+    .logoUAQ{
+        width: 40px;
+        height: auto;
+    }
+
+    #logoINF{
+        width: 40px;
+    }
+
+    #titleContainer{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        align-content: center;
+        border-left: none;
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-top: 1rem;
+    }
+
+    .title{
+        margin-top: 2rem;
+        max-width: 70%;
+    }
+
+    .GridCard{
+        display: flex;
+        justify-content: center;
+    }
+
+    #contenido{
+        margin:0;
+    }
+
+}
