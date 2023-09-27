@@ -138,7 +138,7 @@ h1{
     align-items: center;
     grid-area: Title;
     margin:0;
-    padding-left: 1rem;
+    padding-left: 2%;
     background-color:#082D73;
     width: 100%;
     height: 100px;
@@ -187,7 +187,9 @@ nav{
 
 
 
-/*BACKGROUND IMAGES*/
+/*DISEÑO DE LAS TARJETAS*/
+
+/* PÁGINA DE POTALES */
 #PortalUAQ {
     background-image:
             url("resources/logoportaluaq.png.png"), /* Primera imagen de fondo */
@@ -243,6 +245,7 @@ nav{
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
+/* PÁGINA DE SERVICIOS */
 
 #Correo{
     background-image:
@@ -253,6 +256,94 @@ nav{
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
+#Rutas{
+    background-image:
+            url("resources/logovirtualfif.png"),
+            url("resources/recuadroverdeolivo.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+#Descarga{
+    background-image:
+            url("resources/logovirtualfif.png"),
+            url("resources/recuadroazul.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+/* PÁGINA DE APOYO Y RECURSOS */
+
+#Becas{
+    background-image:
+            url("resources/logovirtualfif.png"),
+            url("resources/recuadroverdeolivo.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+#Cursos{
+    background-image:
+            url("resources/logovirtualfif.png"),
+            url("resources/recuadroazul.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+/* PÁGINA DE GESTIÓN DE EXAMENES */
+
+#Examenes{
+    background-image:
+            url("resources/logovirtualfif.png"),
+            url("resources/recuadroverdeolivo.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+#Office{
+    background-image:
+            url("resources/logovirtualfif.png"),
+            url("resources/recuadroazul.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+/* PÁGINA DE ADMINISTRACIÓN DE CREDENCIALES */
+
+#Credencial{
+    background-image:
+            url("resources/logovirtualfif.png"),
+            url("resources/recuadroverdeolivo.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+/* PÁGINA DE REDES SOCIALES */
+
+#Facebook{
+    background-image:
+            url("resources/logovirtualfif.png"),
+            url("resources/recuadroverdeolivo.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
+
+#Descarga{
+    background-image:
+            url("resources/logovirtualfif.png"),
+            url("resources/recuadroazul.png");
+    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
+}
 #BarraNavegacion{
     display: flex;
     align-items: center;
@@ -274,6 +365,7 @@ nav{
     height: auto;
     grid-area: Title;
 }
+
 
 
 
@@ -388,6 +480,11 @@ nav{
 
     #contenido{
         margin:0;
+    }
+
+    .descripcion{
+        bottom: 2%;
+        right: 5%;
     }
 
 }

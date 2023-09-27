@@ -7,6 +7,7 @@ function cargarContenido(seccion) {
     if (seccion === 'Portales') {
         titleContainer.innerHTML = `<h2 class="title">Portales:</h2>` /*TITULO DE LA SECCIÓN*/
         contenidoDiv.innerHTML = `
+
             <div id="GridCard">
                 <a id="PortalUAQ" class="card" href="http://portal.uaq.mx/portal/index.jsp">
                     <div class="card_background" style="background-image: url(#)"></div>
@@ -42,7 +43,9 @@ function cargarContenido(seccion) {
                         <p class="descripcion">Calificaciones</p>
                     </div>
                 </a>
-            </div>`;
+                
+</div>
+`;
     } else if (seccion === 'Servicios') {
         titleContainer.innerHTML = `<h2 class="title">Servicios:</h2>` /*TITULO DE LA SECCIÓN*/
         contenidoDiv.innerHTML = `
