@@ -192,17 +192,17 @@ nav{
 /* PÁGINA DE POTALES */
 #PortalUAQ {
     background-image:
-            url("resources/logoportaluaq.png.png"), /* Primera imagen de fondo */
+            url("resources/PORTALUAQLOGO.svg"), /* Primera imagen de fondo */
             url("resources/recuadrorojo.png"); /* Segunda imagen de fondo */
 
-    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
-    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-position: left 5% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 30%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
 #PortalFIF {
     background-image:
-            url("resources/logoportalinfo.png"),
+            url("resources/VIRTUALFIF.svg"),
             url("resources/recuadroazuloscuro.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 25%, 9%; /* Tamaño de cada imagen */
@@ -211,7 +211,7 @@ nav{
 
 #VirtualUAQ{
     background-image:
-            url("resources/logovirtualuaq.png"),
+            url("resources/virtualuaq.svg"),
             url("resources/recuadroazul.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 25%, 9%; /* Tamaño de cada imagen */
@@ -220,7 +220,7 @@ nav{
 
 #PortalInf{
     background-image:
-            url("resources/logoportalinfo.png"),
+            url("resources/informaticalogo.svg"),
             url("resources/recuadrocyan.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 25%, 9%; /* Tamaño de cada imagen */
@@ -229,16 +229,16 @@ nav{
 
 #PortalFIF{
     background-image:
-            url("resources/logovirtualfif.png"),
+            url("resources/VIRTUALFIF.svg"),
             url("resources/recuadromorado.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
-    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-size: 20%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
 #VirtualFIF{
     background-image:
-            url("resources/logovirtualfif.png"),
+            url("resources/VIRTUALFIF.svg"),
             url("resources/recuadromorado.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 25%, 9%; /* Tamaño de cada imagen */
