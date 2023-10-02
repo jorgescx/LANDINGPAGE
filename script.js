@@ -29,18 +29,18 @@ function cargarContenido(seccion) {
                         <p class="descripcion">Plataforma para<br> los cursos virtuales<br>de la Facultad de <br>Informatica</p>
                     </div>
                 </a>
-                <a id="VirtualUAQ" class="card" href="https://uaqedvirtual.uaq.mx/campusvirtual/virtualuaq/">
+                <a id="VirtualUAQ" class="card" href="https://uaqedvirtual.uaq.mx/campusvirtual/virtualuaq/login/index.php">
                     <div class="card_background" style="background-image: url(#)"></div>
                     <div class="card_content">
                         <h3 class="cardTittle">Virtual UAQ</h3>
-                        <p class="descripcion">Calificaciones</p>
+                        <p class="descripcion">Registrate o inicia sesión en el Virtual UAQ</p>
                     </div>
                 </a>
                 <a id="PortalInf" class="card" href="https://www.uaq.mx/informatica/educon.html">
                     <div class="card_background" style="background-image: url(#)"></div>
                     <div class="card_content">
                         <h3 class="cardTittle">Portal de Informatica</h3>
-                        <p class="descripcion">Calificaciones</p>
+                        <p class="descripcion">Talleres y Diplomados disponibles</p>
                     </div>
                 </a>
                 
@@ -54,21 +54,21 @@ function cargarContenido(seccion) {
                 <div class="card_background" style="background-image: url(#)"></div>
                 <div class="card_content">
                     <h3 class="cardTittle">Correo Institucional</h3>
-                    <p class="descripcion">Calificaciones</p>
+                    <p class="descripcion">Solicitud de cuenta de correo Institucional alumnos</p>
                 </div>
             </a>
             <a id="Rutas" class="card" href="http://administrativa.uaq.mx/index.php/rutas">
                 <div class="card_background" style="background-image: url(#)"></div>
                 <div class="card_content">
                     <h3 class="cardTittle">Rutas Universitarias</h3>
-                    <p class="descripcion">Consulta</p>
+                    <p class="descripcion">Consulta las rutas del transporte universitario</p>
                 </div>
             </a>
             <a id="Descarga" class="card" href="https://www.uaq.mx/informatica/descargas.html">
             <div class="card_background" style="background-image: url(#)"></div>
             <div class="card_content">
                 <h3 class="cardTittle">Descargas</h3>
-                <p class="descripcion">Descarga los planes de estudio</p>
+                <p class="descripcion">Descarga los planes de estudio, lineamintos de titulación, entre otros</p>
             </div>
             </a>
 
@@ -106,8 +106,8 @@ function cargarContenido(seccion) {
             <a id="Office" class="card" href="#">
             <div class="card_background" style="background-image: url(#)"></div>
             <div class="card_content">
-                <h3 class="cardTittle">Solicita la paqueteria de office</h3>
-                <p class="descripcion">Word, Excel</p>
+                <h3 class="cardTittle">Paqueteria de office</h3>
+                <p class="descripcion">Solicita la paquetería de office</p>
             </div>
         </a>
         </div>`;
@@ -119,7 +119,7 @@ function cargarContenido(seccion) {
                 <div class="card_background" style="background-image: url(#)"></div>
                 <div class="card_content">
                     <h3 class="cardTittle">Reposición de credencial</h3>
-                    <p class="descripcion">Solicita una reposición de tu credencial</p>
+                    <p class="descripcion">Solicita una reposición de tu credencial de estudiante</p>
                 </div>
             </a>
         </div>`
@@ -129,15 +129,15 @@ function cargarContenido(seccion) {
             <div id="GridCard">
             <a id="Facebook" class="card" href="https://www.facebook.com/fifuaq/?locale=es_LA">
                 <div class="card_content">
-                    <h3 class="cardTittle">Facebook UAQ informatica</h3>
-                    <p class="descripcion">Facebook</p>
+                    <h3 class="cardTittle">Facebook</h3>
+                    <p class="descripcion">Facebook UAQ Facultad de Informatica</p>
                 </div>
             </a>
             <a id="Instagram" class="card" href="https://www.instagram.com/InformaticaUAQ/">
                 <div class="card_background" style="background-image: url(#)"></div>
                 <div class="card_content">
                     <h3 class="cardTittle">Instagram</h3>
-                    <p class="descripcion">Consulta el Instagram de la Facultad</p>
+                    <p class="descripcion">Instagram UAQ Facultad de Informatica</p>
                 </div>
             </a>
             </div>`
