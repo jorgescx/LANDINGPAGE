@@ -100,7 +100,7 @@ function cargarContenido(seccion) {
                     <p class="descripcion">Solicita examenes voluntarios</p>
                 </div>
             </a>
-            <a id="Office" class="card" href="#">
+            <a id="Office" class="card" href="https://www.uaq.mx/diti/index.php/servicios/office365">
             <div class="card_background" style="background-image: url(#)"></div>
             <div class="card_content">
                 <h3 class="cardTittle">Solicita la paqueteria de office</h3>
