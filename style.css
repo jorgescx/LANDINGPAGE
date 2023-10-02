@@ -68,7 +68,7 @@ a.card{
     text-decoration: none;
     width: auto;
     min-width: 276px;
-    height: 218px;
+    height: 175px;
     padding: 10px;
     margin: 15px;
 }
@@ -156,6 +156,9 @@ h1{
     width: 30%;
     border-left: 1px solid #D9D9D9; /* Borde derecho para separación */
     padding-left: 20px; /* Espacio adicional a la izquierda del área de tarjetas */
+}
+h2.title{
+    padding-top: 20px;
 }
 
 main{
