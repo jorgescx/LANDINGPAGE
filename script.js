@@ -9,7 +9,7 @@ function cargarContenido(seccion) {
         contenidoDiv.innerHTML = `
 
             <div id="GridCard">
-                <a id="PortalUAQ" class="card" href="http://portal.uaq.mx/portal/index.jsp">
+                <a id="PortalUAQ" class="card" href="http://portal.uaq.mx/portal/index.jsp" target="_blank>
                     <div class="card_background" style="background-image: url(#)"></div>
                     <div class="card_content">
                         <h3 class="cardTittle">Portal UAQ</h3>
@@ -22,21 +22,21 @@ function cargarContenido(seccion) {
                         
                     </div>
                 </a>
-                <a id="PortalFIF" class="card" href="https://virtualfif.uaq.mx/portal/">
+                <a id="PortalFIF" class="card" href="https://virtualfif.uaq.mx/portal/" target="_blank>
                     <div class="card_background" style="background-image: url(#)"></div>
                     <div class="card_content">
                         <h3 class="cardTittle">Virtual FIF</h3>
                         <p class="descripcion">Plataforma para<br> los cursos virtuales<br>de la Facultad de <br>Informatica</p>
                     </div>
                 </a>
-                <a id="VirtualUAQ" class="card" href="https://uaqedvirtual.uaq.mx/campusvirtual/virtualuaq/login/index.php">
+                <a id="VirtualUAQ" class="card" href="https://uaqedvirtual.uaq.mx/campusvirtual/virtualuaq/login/index.php" target="_blank>
                     <div class="card_background" style="background-image: url(#)"></div>
                     <div class="card_content">
                         <h3 class="cardTittle">Virtual UAQ</h3>
                         <p class="descripcion">Registrate o inicia sesión en el Virtual UAQ</p>
                     </div>
                 </a>
-                <a id="PortalInf" class="card" href="https://www.uaq.mx/informatica/educon.html">
+                <a id="PortalInf" class="card" href="https://www.uaq.mx/informatica/educon.html" target="_blank>
                     <div class="card_background" style="background-image: url(#)"></div>
                     <div class="card_content">
                         <h3 class="cardTittle">Portal de Informatica</h3>
@@ -50,21 +50,21 @@ function cargarContenido(seccion) {
         titleContainer.innerHTML = `<h2 class="title">Servicios:</h2>` /*TITULO DE LA SECCIÓN*/
         contenidoDiv.innerHTML = `
         <div id="GridCard">
-            <a id="Correo" class="card" href="https://comunidad.uaq.mx:8011/email/">
+            <a id="Correo" class="card" href="https://comunidad.uaq.mx:8011/email/" target="_blank>
                 <div class="card_background" style="background-image: url(#)"></div>
                 <div class="card_content">
                     <h3 class="cardTittle">Correo Institucional</h3>
                     <p class="descripcion">Solicitud de cuenta de correo Institucional alumnos</p>
                 </div>
             </a>
-            <a id="Rutas" class="card" href="http://administrativa.uaq.mx/index.php/rutas">
+            <a id="Rutas" class="card" href="http://administrativa.uaq.mx/index.php/rutas" target="_blank>
                 <div class="card_background" style="background-image: url(#)"></div>
                 <div class="card_content">
                     <h3 class="cardTittle">Rutas Universitarias</h3>
                     <p class="descripcion">Consulta las rutas del transporte universitario</p>
                 </div>
             </a>
-            <a id="Descarga" class="card" href="https://www.uaq.mx/informatica/descargas.html">
+            <a id="Descarga" class="card" href="https://www.uaq.mx/informatica/descargas.html" target="_blank>
             <div class="card_background" style="background-image: url(#)"></div>
             <div class="card_content">
                 <h3 class="cardTittle">Descargas</h3>
@@ -77,14 +77,14 @@ function cargarContenido(seccion) {
         titleContainer.innerHTML = `<h2 class="title">Apoyo y recursos para estudiantes:</h2>` /*TITULO DE LA SECCIÓN*/
         contenidoDiv.innerHTML = `
         <div id="GridCard">
-            <a id="Becas" class="card" href="https://becas.uaq.mx/">
+            <a id="Becas" class="card" href="https://becas.uaq.mx/" target="_blank>
                 <div class="card_background" style="background-image: url(#)"></div>
                 <div class="card_content">
                     <h3 class="cardTittle">Becas UAQ</h3>
                     <p class="descripcion">Consulta las becas disponibles</p>
                 </div>
             </a>
-            <a id="Cursos" class="card" href="https://www.uaq.mx/informatica/educon.html">
+            <a id="Cursos" class="card" href="https://www.uaq.mx/informatica/educon.html" target="_blank>
                 <div class="card_background" style="background-image: url(#)"></div>
                 <div class="card_content">
                     <h3 class="cardTittle">Cursos</h3>
@@ -96,14 +96,14 @@ function cargarContenido(seccion) {
         titleContainer.innerHTML = `<h2 class="title">Adnimistración de credenciales:</h2>` /*TITULO DE LA SECCIÓN*/
         contenidoDiv.innerHTML =`
         <div id="GridCard">
-            <a id="Examenes" class="card" href="#">
+            <a id="Examenes" class="card" href="#" target="_blank">
                 <div class="card_background" style="background-image: url(#)"></div>
                 <div class="card_content">
                     <h3 class="cardTittle">Gestión de Examenes</h3>
                     <p class="descripcion">Solicita examenes voluntarios</p>
                 </div>
             </a>
-            <a id="Office" class="card" href="https://www.uaq.mx/diti/index.php/servicios/office365">
+            <a id="Office" class="card" href="https://www.uaq.mx/diti/index.php/servicios/office365" target="_blank>
             <div class="card_background" style="background-image: url(#)"></div>
             <div class="card_content">
                 <h3 class="cardTittle">Paqueteria de office</h3>
@@ -115,7 +115,7 @@ function cargarContenido(seccion) {
         titleContainer.innerHTML = `<h2 class="title">Reposición de credenciales:</h2>` /*TITULO DE LA SECCIÓN*/
         contenidoDiv.innerHTML =`
         <div id="GridCard">
-            <a id="Credencial" class="card" href="https://dsa.uaq.mx/index.php/servicios/tramites-generales/reposicion-de-credenciales">
+            <a id="Credencial" class="card" href="https://dsa.uaq.mx/index.php/servicios/tramites-generales/reposicion-de-credenciales" target="_blank>
                 <div class="card_background" style="background-image: url(#)"></div>
                 <div class="card_content">
                     <h3 class="cardTittle">Reposición de credencial</h3>
@@ -127,13 +127,13 @@ function cargarContenido(seccion) {
         titleContainer.innerHTML = `<h2 class="title">Redes sociales:</h2>` /*TITULO DE LA SECCIÓN*/
         contenidoDiv.innerHTML =`
             <div id="GridCard">
-            <a id="Facebook" class="card" href="https://www.facebook.com/fifuaq/?locale=es_LA">
+            <a id="Facebook" class="card" href="https://www.facebook.com/fifuaq/?locale=es_LA" target="_blank>
                 <div class="card_content">
                     <h3 class="cardTittle">Facebook</h3>
                     <p class="descripcion">Facebook UAQ Facultad de Informatica</p>
                 </div>
             </a>
-            <a id="Instagram" class="card" href="https://www.instagram.com/InformaticaUAQ/">
+            <a id="Instagram" class="card" href="https://www.instagram.com/InformaticaUAQ/" target="_blank>
                 <div class="card_background" style="background-image: url(#)"></div>
                 <div class="card_content">
                     <h3 class="cardTittle">Instagram</h3>
