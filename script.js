@@ -26,7 +26,7 @@ function cargarContenido(seccion) {
                     <div class="card_background" style="background-image: url(#)"></div>
                     <div class="card_content">
                         <h3 class="cardTittle">Virtual FIF</h3>
-                        <p class="descripcion">Plataforma para<br> los cursos virtuales<br>de la Facultad de <br>Informatica</p>
+                        <p class="descripcion">Plataforma para los cursos virtuales de la Facultad de Informatica</p>
                     </div>
                 </a>
                 <a id="VirtualUAQ" class="card" href="https://uaqedvirtual.uaq.mx/campusvirtual/virtualuaq/login/index.php" target="_blank>

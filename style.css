@@ -93,7 +93,8 @@ a.card{
     position: absolute;
     bottom: 0;
     right: 0;
-    left:40%
+    left:35%;
+    font-size: small;
 }
 
 
@@ -488,7 +489,7 @@ nav{
 
     .descripcion{
         bottom: 2%;
-        right: 5%;
+        left:50%;
     }
 
 }
