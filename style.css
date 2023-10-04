@@ -140,7 +140,7 @@ h1{
     align-items: center;
     grid-area: Title;
     margin:0;
-    padding-left: 2%;
+    padding-left: 3%;
     background-color:#082D73;
     width: 100%;
     height: 100px;
@@ -149,7 +149,6 @@ h1{
     background-size: 100% 10px;
     background-position: bottom, left;
     color: #FFFFFF;
-
 }
 
 #titleContainer{
@@ -161,6 +160,7 @@ h1{
 }
 h2.title{
     padding-top: 20px;
+    padding-left: 15px;
 }
 
 main{
@@ -191,14 +191,13 @@ nav{
 }
 
 
-
 /*DISEÑO DE LAS TARJETAS*/
 
 /* PÁGINA DE POTALES */
 #PortalUAQ {
     background-image:
-            url("resources/PORTALUAQLOGO.svg"), /* Primera imagen de fondo */
-            url("resources/recuadrorojo.png"); /* Segunda imagen de fondo */
+            url("resources/PORTALUAQLOGO.svg"), /* LOGO */
+            url("resources/recuadrorojo.png"); /* COLORES */
 
     background-position: left 5% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 30%, 9%; /* Tamaño de cada imagen */
@@ -207,8 +206,8 @@ nav{
 
 #PortalFIF {
     background-image:
-            url("resources/VIRTUALFIF.svg"),
-            url("resources/recuadroazuloscuro.png");
+            url("resources/VIRTUALFIF.svg"), /* LOGO */
+            url("resources/recuadroazuloscuro.png"); /* COLORES */
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 25%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
