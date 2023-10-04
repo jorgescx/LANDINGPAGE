@@ -95,6 +95,7 @@ a.card{
     right: 0;
     left:35%;
     font-size: small;
+    color:#656565;
 }
 
 
@@ -227,7 +228,7 @@ nav{
             url("resources/informaticalogo.svg"),
             url("resources/recuadrocyan.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
-    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-size: 20%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
@@ -370,9 +371,12 @@ nav{
     grid-area: Title;
 }
 
+#logoFACUINF{
+    margin-right: 9%;
+}
 
 
-
+/*MEDIA QUERY PARA DISPOSITIVOS MOVILES*/
 @media (max-width: 950px) {
 
     html{
@@ -473,7 +477,7 @@ nav{
     }
 
     .title{
-        margin-top: 2rem;
+        margin-top: -0.2rem;
         max-width: 70%;
     }
 
@@ -498,3 +502,32 @@ nav{
 
 
 }
+
+@media (max-width: 896px) and (orientation: landscape){
+    html{
+        overflow: auto;
+    }
+
+    #PortalUAQ,
+    #PortalFIF,
+    #VirtualUAQ,
+    #PortalInf,
+    #PortalFIF,
+    #VirtualFIF,
+    #Correo,
+    #Rutas,
+    #Descarga,
+    #Becas,
+    #Cursos,
+    #Examenes,
+    #Office,
+    #Credencial,
+    #Facebook,
+    #Instagram {
+        background-size: 20%, 9%; /* Establece el tamaño de fondo deseado */
+    }
+
+
+}
+
+
