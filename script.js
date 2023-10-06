@@ -29,14 +29,14 @@ function cargarContenido(seccion) {
                         <p class="descripcion">Plataforma para los cursos virtuales de la Facultad de Informatica</p>
                     </div>
                 </a>
-                <a id="VirtualUAQ" class="card" href="https://uaqedvirtual.uaq.mx/campusvirtual/virtualuaq/login/index.php" "target="_blank">
+                <a id="VirtualUAQ" class="card" href="https://uaqedvirtual.uaq.mx/campusvirtual/virtualuaq/login/index.php" target="_blank">
                     <div class="card_background" style="background-image: url(#)"></div>
                     <div class="card_content">
                         <h3 class="cardTittle">Virtual UAQ</h3>
                         <p class="descripcion">Registrate o inicia sesión en el Virtual UAQ</p>
                     </div>
                 </a>
-                <a id="PortalInf" class="card" href="https://www.uaq.mx/informatica/educon.html" "target="_blank">
+                <a id="PortalInf" class="card" href="https://www.uaq.mx/informatica/educon.html" target="_blank">
                     <div class="card_background" style="background-image: url(#)"></div>
                     <div class="card_content">
                         <h3 class="cardTittle">Portal de Informatica</h3>
