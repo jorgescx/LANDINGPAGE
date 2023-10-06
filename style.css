@@ -254,16 +254,16 @@ nav{
 
 #Correo{
     background-image:
-            url("resources/correo.png"),
+            url("resources/mail.svg"),
             url("resources/recuadrorojo.png");
-    background-position: left 10% bottom 8%, left 100% top 30px; /* Posición de cada imagen */
-    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-position: left 10% bottom 5%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 23%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
 #Rutas{
     background-image:
-            url("resources/rutas.png"),
+            url("resources/rutas.svg"),
             url("resources/recuadroazuloscuro.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 21%, 9%; /* Tamaño de cada imagen */
@@ -272,7 +272,7 @@ nav{
 
 #Descarga{
     background-image:
-            url("resources/descargas.png"),
+            url("resources/descargas.svg"),
             url("resources/recuadromorado.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 22%, 9%; /* Tamaño de cada imagen */
@@ -283,16 +283,16 @@ nav{
 
 #Becas{
     background-image:
-            url("resources/logovirtualfif.png"),
+            url("resources/becona.svg"),
             url("resources/recuadroMoradoClaro.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
-    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-size: 27%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
 #Cursos{
     background-image:
-            url("resources/graduacion.png"),
+            url("resources/graduacion.svg"),
             url("resources/recuadrocyan.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 20%, 9%; /* Tamaño de cada imagen */
@@ -303,7 +303,7 @@ nav{
 
 #Examenes{
     background-image:
-            url("resources/exam.png"),
+            url("resources/exam.svg"),
             url("resources/recuadroAzulAquq.png");
     background-position: left 15% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 19%, 9%; /* Tamaño de cada imagen */
@@ -312,7 +312,7 @@ nav{
 
 #Office{
     background-image:
-            url("resources/office.png"),
+            url("resources/office.svg"),
             url("resources/recuadroNaranja.png");
     background-position: left 11% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 18%, 9%; /* Tamaño de cada imagen */
@@ -323,7 +323,7 @@ nav{
 
 #Credencial{
     background-image:
-            url("resources/credencial.png"),
+            url("resources/credencial.svg"),
             url("resources/recuadroazuloscuro.png");
     background-position: left 12% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 21%, 9%; /* Tamaño de cada imagen */
@@ -334,7 +334,7 @@ nav{
 
 #Facebook{
     background-image:
-            url("resources/facebook.png"),
+            url("resources/facebook.svg"),
             url("resources/recuadroazul.png");
     background-position: left 13% bottom 13%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 16%, 9%; /* Tamaño de cada imagen */
@@ -343,7 +343,7 @@ nav{
 
 #Instagram{
     background-image:
-            url("resources/instagram.png"),
+            url("resources/instagram.svg"),
             url("resources/recuadroNaranja.png");
     background-position: left 12% bottom 12%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 17%, 9%; /* Tamaño de cada imagen */
