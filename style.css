@@ -254,28 +254,28 @@ nav{
 
 #Correo{
     background-image:
-            url("resources/logovirtualfif.png"),
-            url("resources/recuadromorado.png");
-    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+            url("resources/correo.png"),
+            url("resources/recuadrorojo.png");
+    background-position: left 10% bottom 8%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 25%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
 #Rutas{
     background-image:
-            url("resources/logovirtualfif.png"),
-            url("resources/recuadroverdeolivo.png");
+            url("resources/rutas.png"),
+            url("resources/recuadroazuloscuro.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
-    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-size: 21%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
 #Descarga{
     background-image:
-            url("resources/logovirtualfif.png"),
-            url("resources/recuadroazul.png");
+            url("resources/descargas.png"),
+            url("resources/recuadromorado.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
-    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-size: 22%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
@@ -284,7 +284,7 @@ nav{
 #Becas{
     background-image:
             url("resources/logovirtualfif.png"),
-            url("resources/recuadroverdeolivo.png");
+            url("resources/recuadroMoradoClaro.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
     background-size: 25%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
@@ -292,10 +292,10 @@ nav{
 
 #Cursos{
     background-image:
-            url("resources/logovirtualfif.png"),
-            url("resources/recuadroazul.png");
+            url("resources/graduacion.png"),
+            url("resources/recuadrocyan.png");
     background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
-    background-size: 25%, 9%; /* Tamaño de cada imagen */
+    background-size: 20%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
@@ -303,19 +303,19 @@ nav{
 
 #Examenes{
     background-image:
-            url("resources/logovirtualfif.png"),
-            url("resources/recuadroverdeolivo.png");
-    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
-    background-size: 25%, 9%; /* Tamaño de cada imagen */
+            url("resources/exam.png"),
+            url("resources/recuadroAzulAquq.png");
+    background-position: left 15% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 19%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
 #Office{
     background-image:
-            url("resources/logovirtualfif.png"),
-            url("resources/recuadroazul.png");
-    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
-    background-size: 25%, 9%; /* Tamaño de cada imagen */
+            url("resources/office.png"),
+            url("resources/recuadroNaranja.png");
+    background-position: left 11% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 18%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
@@ -323,10 +323,10 @@ nav{
 
 #Credencial{
     background-image:
-            url("resources/logovirtualfif.png"),
-            url("resources/recuadroverdeolivo.png");
-    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
-    background-size: 25%, 9%; /* Tamaño de cada imagen */
+            url("resources/credencial.png"),
+            url("resources/recuadroazuloscuro.png");
+    background-position: left 12% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 21%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
@@ -334,19 +334,19 @@ nav{
 
 #Facebook{
     background-image:
-            url("resources/logovirtualfif.png"),
-            url("resources/recuadroverdeolivo.png");
-    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
-    background-size: 25%, 9%; /* Tamaño de cada imagen */
+            url("resources/facebook.png"),
+            url("resources/recuadroazul.png");
+    background-position: left 13% bottom 13%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 16%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 
 #Instagram{
     background-image:
-            url("resources/logovirtualfif.png"),
-            url("resources/recuadroazul.png");
-    background-position: left 10% bottom 10%, left 100% top 30px; /* Posición de cada imagen */
-    background-size: 25%, 9%; /* Tamaño de cada imagen */
+            url("resources/instagram.png"),
+            url("resources/recuadroNaranja.png");
+    background-position: left 12% bottom 12%, left 100% top 30px; /* Posición de cada imagen */
+    background-size: 17%, 9%; /* Tamaño de cada imagen */
     background-repeat: no-repeat, no-repeat; /* No repetir las imágenes */
 }
 #BarraNavegacion{

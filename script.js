@@ -22,7 +22,7 @@ function cargarContenido(seccion) {
                         
                     </div>
                 </a>
-                <a id="PortalFIF" class="card" href="https://virtualfif.uaq.mx/portal/" "target="_blank">
+                <a id="PortalFIF" class="card" href="https://virtualfif.uaq.mx/portal/" target="_blank">
                     <div class="card_background" style="background-image: url(#)"></div>
                     <div class="card_content">
                         <h3 class="cardTittle">Virtual FIF</h3>
