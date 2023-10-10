@@ -140,8 +140,28 @@ function cargarContenido(seccion) {
                     <p class="descripcion">Instagram UAQ Facultad de Informatica</p>
                 </div>
             </a>
+            <a id="Youtube" class="card" href="https://www.youtube.com/@fifuaq" target="_blank">
+                <div class="card_background" style="background-image: url(#)"></div>
+                <div class="card_content">
+                    <h3 class="cardTittle">Youtube</h3>
+                    <p class="descripcion">Canal de Youtube UAQ Facultad de Informatica</p>
+                </div>
+            </a>
+            <a id="X" class="card" href="https://twitter.com/InformaticaUAQ" target="_blank">
+                <div class="card_background" style="background-image: url(#)"></div>
+                <div class="card_content">
+                    <h3 class="cardTittle">X</h3>
+                    <p class="descripcion">X UAQ Facultad de Informatica</p>
+                </div>
+            </a>
+            
             </div>`
-    }}
+    }else if(seccion === 'Eventos'){
+        titleContainer.innerHTML = `<h2 class="title">Eventos:</h2>` /*TITULO DE LA SECCIÓN*/
+        contenidoDiv.innerHTML =`
+        `
+    }
+}
 
 
 document.addEventListener('DOMContentLoaded', function() {

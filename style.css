@@ -1,35 +1,32 @@
-:root {
+:root{
     --colorBase: #FFFFFF;
-    --Border: 0.9375rem; /* 15px / 16px = 0.9375rem */
+    --Border: 15px;
     --Button: #D9D9D9;
     --TextSelect: #000000;
-    --TextUnselect: #656565;
+    --TextUnselect:#656565;
     --Card: #D9D9D9;
     --purple: #63325A;
-    --HeightCard: 16.625rem; /* 266px / 16px = 16.625rem */
-    --WidthCard: 15.1875rem; /* 243px / 16px = 15.1875rem */
-    --ImageCardWidth: 18.75rem; /* 300px / 16px = 18.75rem */
-    --LogosWidth: 1.5rem; /* 24px / 16px = 1.5rem */
-    --LogosHeight: 1.5rem; /* 24px / 16px = 1.5rem */
+    --HeightCard: 266px;
+    --WidthCard: 243px;
+    --ImageCardWidth: 300px;
+    --LogosWidth: 24px;
+    --LogosHeight: 24px;
     --Fuente: 'Geologica', sans-serif;
 }
 
-html {
+html{
     padding: 0;
     margin: 0;
-    font-family: var(--Fuente);
+    font-family:  var(--Fuente);
     height: 100vh;
     width: 100vw;
 }
-
 #BarraNavegacion {
-    margin-top: -0.09375rem; /* -1.5px / 16px = -0.09375rem */
-    padding-top: 0.09375rem; /* 1.5px / 16px = 0.09375rem */
+    margin-top: -25px;
+    padding-top: 20px;
     min-width: fit-content;
+
 }
-
-/* Resto del código se mantiene igual */
-
 
 #contenido {
     border-left: 1px solid #D9D9D9; /* Borde derecho para separación */
@@ -43,7 +40,7 @@ body{
     display: grid;
     height: 100%;
     width: 100%;
-    min-height: 37.5rem;
+    min-height: 600px;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: auto auto;
     grid-template-areas:
@@ -70,10 +67,10 @@ a.card{
     border-radius: var(--Border);
     text-decoration: none;
     width: auto;
-    min-width: 17.25rem;
-    height: 10.93rem;
-    padding: .8rem;
-    margin: .9rem;
+    min-width: 276px;
+    height: 175px;
+    padding: 10px;
+    margin: 15px;
 }
 
 .card_content{
@@ -147,7 +144,7 @@ h1{
     padding-left: 3%;
     background-color:#082D73;
     width: 100%;
-    height: 6.2rem;
+    height: 100px;
     background-image: url("resources/barra_morada.jpg");
     background-repeat: no-repeat;
     background-size: 100% 10px;
@@ -375,7 +372,8 @@ nav{
 }
 
 #logoFACUINF{
-    margin-right: 9%;
+    margin-right: 1%;
+    width: 3.2rem;
 }
 
 
@@ -436,7 +434,7 @@ nav{
     #BarraNavegacion{
         display: none;
         position: fixed;
-        min-width: 9.3rem;
+        min-width: 150px;
     }
 
     #BarraNavegacion.active{
