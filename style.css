@@ -354,7 +354,7 @@ nav{
     align-items: center;
     flex-direction: column;
     align-content: center;
-    justify-content: flex-start;
+    justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -429,6 +429,7 @@ nav{
         width: 90%;
         margin: 15px 15px 15px 0;
         height: 50%;
+        min-height: 15rem;
     }
 
     #BarraNavegacion{
@@ -482,10 +483,7 @@ nav{
         max-width: 70%;
     }
 
-    .GridCard{
-        display: flex;
-        justify-content: center;
-    }
+
 
     #contenido{
         margin:0;

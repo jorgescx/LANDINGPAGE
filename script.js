@@ -73,8 +73,8 @@ function cargarContenido(seccion) {
             </a>
 
         </div>`;
-    } else if (seccion === 'Apoyo') {
-        titleContainer.innerHTML = `<h2 class="title">Apoyo y recursos para estudiantes:</h2>` /*TITULO DE LA SECCIÓN*/
+    } else if (seccion === 'Estudiantes') {
+        titleContainer.innerHTML = `<h2 class="title">Estudiantes:</h2>` /*TITULO DE LA SECCIÓN*/
         contenidoDiv.innerHTML = `
         <div id="GridCard">
             <a id="Becas" class="card" href="https://becas.uaq.mx/" target="_blank">
@@ -91,11 +91,6 @@ function cargarContenido(seccion) {
                     <p class="descripcion">Consulta los cursos disponibles</p>
                 </div>
             </a>
-        </div>`;
-    }else if(seccion === 'Gestion'){
-        titleContainer.innerHTML = `<h2 class="title">Adnimistración de credenciales:</h2>` /*TITULO DE LA SECCIÓN*/
-        contenidoDiv.innerHTML =`
-        <div id="GridCard">
             <a id="Examenes" class="card" href="#" target="_blank">
                 <div class="card_background" style="background-image: url(#)"></div>
                 <div class="card_content">
@@ -110,18 +105,25 @@ function cargarContenido(seccion) {
                 <p class="descripcion">Solicita la paquetería de office</p>
             </div>
         </a>
-        </div>`;
-    }else if(seccion === 'Credenciales'){
-        titleContainer.innerHTML = `<h2 class="title">Reposición de credenciales:</h2>` /*TITULO DE LA SECCIÓN*/
-        contenidoDiv.innerHTML =`
-        <div id="GridCard">
-            <a id="Credencial" class="card" href="https://dsa.uaq.mx/index.php/servicios/tramites-generales/reposicion-de-credenciales" target="_blank">
+         <a id="Credencial" class="card" href="https://dsa.uaq.mx/index.php/servicios/tramites-generales/reposicion-de-credenciales" target="_blank">
                 <div class="card_background" style="background-image: url(#)"></div>
                 <div class="card_content">
                     <h3 class="cardTittle">Reposición de credencial</h3>
                     <p class="descripcion">Solicita una reposición de tu credencial de estudiante</p>
                 </div>
             </a>
+        </div>`;
+    }else if(seccion === 'Gestion'){
+        titleContainer.innerHTML = `<h2 class="title">Adnimistración de credenciales:</h2>` /*TITULO DE LA SECCIÓN*/
+        contenidoDiv.innerHTML =`
+        <div id="GridCard">
+            
+        </div>`;
+    }else if(seccion === 'Credenciales'){
+        titleContainer.innerHTML = `<h2 class="title">Reposición de credenciales:</h2>` /*TITULO DE LA SECCIÓN*/
+        contenidoDiv.innerHTML =`
+        <div id="GridCard">
+           
         </div>`
     }else if(seccion === 'Redes'){
         titleContainer.innerHTML = `<h2 class="title">Redes sociales:</h2>` /*TITULO DE LA SECCIÓN*/
